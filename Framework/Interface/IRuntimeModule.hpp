@@ -2,8 +2,10 @@
 
 #include "Interface.hpp"
 
-namespace My {
-    Interface IRuntimeModule {
+namespace My 
+{
+    Interface IRuntimeModule 
+    {
 public:
         virtual ~IRuntimeModule() {};
 
@@ -11,5 +13,6 @@ public:
         virtual void Finalize() = 0;
 
         virtual void Tick() = 0;
-    }
+    };
 }
+
