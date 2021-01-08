@@ -12,7 +12,7 @@ int main(int argc, char** argv)
 {
     int ret = 0;
 
-    if ((ret =g_pApp->Initialize()) != 0) 
+    if ((ret = g_pApp->Initialize()) != 0) 
     {
         printf("App Initialize failed, will exit now!");
         return ret;
