@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "string.h": "c",
-        "xcb.h": "c"
+        "xcb.h": "c",
+        "__config": "cpp",
+        "__nullptr": "cpp"
     }
 }
